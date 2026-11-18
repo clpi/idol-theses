@@ -70,13 +70,29 @@ Cited.lean, proofs at their homes:
 | Incremental recomputation equals full evaluation | clpi/software-optimality | proven |
 | Closure, compounding, withdrawal | clpi/software-optimality | proven |
 | The regression gate | clpi/software-is-quantifiable | proven |
+| The closure laws, full form | clpi/software-optimality | proven |
+| The executable closure | clpi/software-optimality | proven |
+| Finite frontier exactness | clpi/software-optimality | proven |
+| The general pareto obligations | clpi/software-optimality | proven |
+| Scoped evidence acceptance | clpi/software-optimality | proven |
+| The relevance profile | clpi/software-optimality | proven |
+| Finite schedules exactness | clpi/software-optimality | proven within its stated limits |
+| The topological thesis | clpi/software-compilers-lose-info | proven |
 
 Pins read on 2026-11-18: the quantifiable home at
 a21c7c56fa028f32014dd795b35b14f688e8fdf1, the optimality home at
-97a5d7f3e68de47cd9eb26221b83e713121673fd.
+97a5d7f3e68de47cd9eb26221b83e713121673fd. The successor pass of
+the same date added the second cited group at the census pins:
+the optimality home at 0ea4626b7806e9c53e9e742fde6a7d542fb85ee3
+and 78b7b99b26ca241ac7a8964f2a4848489978c727, and the topological
+thesis home at e54db425ec890d2bf39e5f9fa6f2da18e3910cf7, the
+last with an independent re-check of its gate at that pin,
+recorded in the cited file.
 
 The remainder of the census — every thesis not in this tranche,
-each with its closing condition — stands in `future-work.md`.
+each with its closing condition — stands in `future-work.md`,
+which opens with a reconciliation index covering all 58 census
+theses by number and disposition.
 
 ## Reading the files
 
@@ -84,7 +100,7 @@ each with its closing condition — stands in `future-work.md`.
 - `Fold.lean` — the fold forms the family homes do not carry.
 - `Frontier.lean` — the frontier forms the family homes do not
   carry.
-- `Cited.lean` — the cited tranche: nine theses, each stated
+- `Cited.lean` — the cited tranche: seventeen theses, each stated
   with its refutation condition, its evidence state, and its
   home, plus the registry as data.
 - `Audit.lean` — the printed axiom sets of the native theorems,
