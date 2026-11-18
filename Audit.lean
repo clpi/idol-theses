@@ -10,6 +10,7 @@ no proofs of its own, so nothing from it is printed here.
 import Merge
 import Fold
 import Frontier
+import SolverDominance
 
 #print axioms Merge.antisymm
 #print axioms Merge.Join.least
@@ -25,3 +26,11 @@ import Frontier
 #print axioms Frontier.covered
 #print axioms Frontier.again
 #print axioms Frontier.kept
+
+#print axioms SolverDominance.exists_fixed_within
+#print axioms SolverDominance.lfp_is_kt
+#print axioms SolverDominance.scott_directed
+#print axioms SolverDominance.horn_lfp_iff_derives
+#print axioms SolverDominance.coloring_lfp
+#print axioms SolverDominance.contract_dominance
+#print axioms SolverDominance.no_uniform_bound

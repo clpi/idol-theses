@@ -11,6 +11,7 @@ lean_lib IdolTheses where
     `Merge,
     `Fold,
     `Frontier,
+    `SolverDominance,
     `Cited,
     `IdolTheses
   ]

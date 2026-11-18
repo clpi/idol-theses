@@ -55,6 +55,7 @@ Native proofs — proved in this repository:
 | The monotonicity foundation claim, algebraic half | Merge.lean | Merge over classes of terms is the least upper bound in the information order; merge and the shared part form a lattice, with both absorption laws. The provision the living spec names as missing, proved for the characteristic-function representation the machinery itself uses. |
 | The fold laws, uncovered forms | Fold.lean | The fold records exactly the presented set; a feed drawn from a second feed accounts below it; removal of one named witness is exact; the deduplicated feed folds to the same class. |
 | The frontier forms, uncovered forms | Frontier.lean | Every member of a named list is on its frontier or strictly dominated by a frontier member; the frontier of the frontier is the frontier; a frontier member undominated by every added member survives the joined list. |
+| Solver dominance on the contract axes | SolverDominance.lean | On a finite universe the Kleene chain of a monotone operator reaches its least fixed point within the universe size, that fixed point is the Knaster-Tarski least pre-fixed point, and monotonicity alone gives Scott continuity because directed suprema are attained; the Horn fixed point is exactly the set of facts with a finite derivation; the incidence accounting counts every derivation step's conclusion and premises; the four-valued coloring reaches its least fixed point within twice the universe size; and over an infinite universe no uniform finite step bound exists. The measured axes are not in these theorems; they are decided by same-contract measurement. |
 
 Cited — statement, refutation condition, and citation carried in
 Cited.lean, proofs at their homes:
@@ -100,6 +101,11 @@ theses by number and disposition.
 - `Fold.lean` — the fold forms the family homes do not carry.
 - `Frontier.lean` — the frontier forms the family homes do not
   carry.
+- `SolverDominance.lean` — the solver dominance theorems: the
+  finite fixed point bound and its Knaster-Tarski form, the
+  collapsed Scott continuity, provenance completeness for the
+  Horn closure, incidence accounting completeness, the
+  coloring fixed point, and the infinite-side separation.
 - `Cited.lean` — the cited tranche: seventeen theses, each stated
   with its refutation condition, its evidence state, and its
   home, plus the registry as data.
