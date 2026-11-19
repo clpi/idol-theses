@@ -718,6 +718,37 @@ future-work file. The glue forms among the filters and the
 join that these claims presuppose are the part already
 proved natively in this repository, in the synthesis file.
 
+### The safe rewrites — the register and the composer
+
+Claim: a finite set of rewrites composes safely — the
+composed transformation preserves the composed contract and
+is regression-free on the qualified filter — when each
+rewrite preserves its contract on the qualified filter and
+every pairwise interaction is itself a recorded contract
+preserved by both sides. State: the composer form of this
+claim is proven natively in this repository, in the composer
+file landed by the rewrites pass: the composer theorem and
+its pair form, the repetition lemma, the exchange lemma,
+the screen exchange and repetition lemmas, and a standing
+control — a proved negation showing two individually safe
+rewrites whose unrecorded interaction breaks the composed
+contract on a concrete instance, so the interaction premise
+is load-bearing. The per-system register the composer
+serves — sixty-five candidates across the five rewrite
+classes of the campaign directive (compressed, optimally
+ordered, venue-selected, idempotent, keyed), over the
+fourteen libraries at the campaign pin and the restart
+records store, each with its transformation, its proof
+obligations cited or proved, and its constructed economics
+checked against measurement where a measurement exists —
+stands in the research record as the safe rewrite register
+of 2026-11-19. Every candidate in it stands proposed: none
+carries a full before-and-after pair yet, and the register
+says so per class. The one proof remainder — deriving
+commutation from premise disjointness inside the proof
+development rather than taking commutation as a premise —
+stands in the future-work file with its closing condition.
+
 ## What this pass landed
 
 Citations: seventeen new cited theses (theses 18 to 34 of
@@ -726,7 +757,11 @@ cited, and closing, by citation at the optimality pin of
 this pass, the worklist dominated point against census 49
 and the strict schedule form against census 55.
 Native proof: the composition glue, in the synthesis file,
-under this repository's gate.
+under this repository's gate. The rewrites pass added the
+composer file to the same gate: the composer theorem, its
+pair form, the repetition and exchange lemmas, the screen
+lemmas, and the standing control, all green cold with every
+result inside the standard three assumptions.
 Future work: every composed claim not landed as citation or
 proof stands in the future-work file, in the synthesis
 section added by this pass, each with its closing condition.

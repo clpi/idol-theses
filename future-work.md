@@ -888,3 +888,19 @@ fresh heads its own watch updates record, including the pins
 this pass read. Closing condition: a re-synthesis run at a
 named pin whose census pins equal the live heads it lists,
 this pass's pins among them.
+
+### The composer — commutation from disjointness
+
+Thesis: premise-disjoint derivations commute, proved inside
+the proof development over the hypergraph's own premise
+structure, rather than commutation taken as the exchange
+lemma's premise as the composer file now states it. State:
+proposed — the composer theorem, its pair form, the
+repetition lemma, and the exchange lemma stand proven in
+the composer file; this derivation is the remainder.
+Closing condition: a native proof, under this repository's
+gate, that two state transformations acting on disjoint
+premise sets of a presented hypergraph commute on every
+qualified state, with the disjointness read from the
+presentation itself — or the claim restated at the strength
+that survives a counterexample.

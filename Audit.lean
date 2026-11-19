@@ -12,6 +12,7 @@ import Fold
 import Frontier
 import SolverDominance
 import Synthesis
+import Compose
 
 #print axioms Merge.antisymm
 #print axioms Merge.Join.least
@@ -43,3 +44,11 @@ import Synthesis
 #print axioms Synthesis.qualified.join
 #print axioms Synthesis.qualified.left
 #print axioms Synthesis.closed.join
+
+#print axioms Compose.compose
+#print axioms Compose.pair
+#print axioms Compose.idem.run
+#print axioms Compose.comm.run
+#print axioms Compose.screen.comm
+#print axioms Compose.screen.idem
+#print axioms Compose.control

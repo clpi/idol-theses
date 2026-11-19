@@ -16,7 +16,7 @@ fi
 
 # The compile list, in dependency order. Every .lean file in the
 # repository must appear here exactly once.
-FILES="lakefile.lean Merge.lean Fold.lean Frontier.lean SolverDominance.lean Synthesis.lean Cited.lean IdolTheses.lean Audit.lean"
+FILES="lakefile.lean Merge.lean Fold.lean Frontier.lean SolverDominance.lean Synthesis.lean Compose.lean Cited.lean IdolTheses.lean Audit.lean"
 for f in ./*.lean; do
   base="$(basename "$f")"
   case " $FILES " in
@@ -47,6 +47,7 @@ run_lean -o Fold.olean Fold.lean
 run_lean -o Frontier.olean Frontier.lean
 run_lean -o SolverDominance.olean SolverDominance.lean
 run_lean -o Synthesis.olean Synthesis.lean
+run_lean -o Compose.olean Compose.lean
 run_lean -o Cited.olean Cited.lean
 run_lean -o IdolTheses.olean IdolTheses.lean
 
