@@ -726,3 +726,165 @@ the conjunction proved at a named pin in its assigned home,
 the derivation semantics of the optimality home, with the two
 raw forms' failure modes exhibited as checked counterexamples
 in the same landing.
+
+## Synthesis pass of 2026-11-19 — composed claims not landed
+
+Added by the universal behavioral hypergraph synthesis pass.
+Dispositions from that pass: seventeen family claims landed
+as citations (theses 18 to 34 of the cited file) and the
+composition glue landed as a native proof (the synthesis
+file). Every composed claim that landed neither way stands
+below, each with its closing condition. Two earlier entries
+are retired by this section: the worklist dominated point
+against census 49 and the strict schedule form against
+census 55, whose closing conditions are met by the worklist
+and strict citations at the optimality pin 95df5fb7 read by
+this pass — the entries above stand as the record of the
+points, and this section is their disposition.
+
+### Campaign one — redundant in compute, as a universal
+
+Thesis: any software, as represented in its behavioral
+hyperlattice, is provably redundant in its compute. State:
+proposed semantics — a campaign claim, in the synthesis
+document, never proven. Closing condition: the campaign's
+empirical arm builds the per-library hypergraphs at a named
+pin and the claim is restated at the strength the census
+survives, or one irredundant hypergraph exhibited under the
+falsification route named in the synthesis document refutes
+the universal form.
+
+### Campaign two — suboptimal in representation, as a universal
+
+Thesis: any software, as represented in its behavioral
+hyperlattice, is suboptimal in its representation against
+the minimum its contract constructs. State: proposed
+semantics — a campaign claim, never proven. Closing
+condition: as campaign one, with the persistence model's
+minimum construction run per library; a certified-minimal
+library under the named falsification route refutes the
+universal form.
+
+### Campaign three — suboptimal in performance, as a universal
+
+Thesis: any software, as represented in its behavioral
+hyperlattice, is suboptimal in its performance, or stands
+with its incumbent uncertified on its exact frontier. State:
+proposed semantics — a campaign claim, never proven. Closing
+condition: as campaign one, with exact frontiers and
+complete receipts computed per library; a certified
+undominated incumbent under the named falsification route
+refutes the universal form.
+
+### Campaign four — suboptimal in architecture, as a universal
+
+Thesis: any software, as represented in its behavioral
+hyperlattice, is suboptimal in its architecture: its
+distilled base contract set is strictly smaller than its own
+distinction set at equal qualified behavior. State: proposed
+semantics — a campaign claim, never proven. Closing
+condition: as campaign one, with the anti-unification
+distillation computed per library; a library whose distilled
+set equals its distinction set in both checked directions
+refutes the universal form.
+
+### The per-library hypergraphs and the universal join
+
+Thesis: one behavioral hypergraph per library, beginning in
+the idol library, semi-persistent and project-independent,
+joins into one universal hypergraph — the joined
+hyperlattice of possible states under the observed and
+qualified filters — and incremental qualification over the
+join equals full evaluation of the joined snapshot. State:
+proposed semantics; the glue forms the claim presupposes
+stand proved natively in this repository, and nothing else
+of it has landed. Closing condition: the per-library
+hypergraphs built for a named first set of libraries at a
+named pin, their join constructed, and the equality of
+incremental and full evaluation over the join checked as one
+object, or a join counterexample exhibited.
+
+### The bounded frontier search technique
+
+Thesis: a structural bounded technique searches the frontier
+of the universal space parametrically and optimally, with
+its bound proved against the exhaustive reference form.
+State: proposed semantics; the exhaustive reference form
+stands proven in its home, and no bounded technique stands
+anywhere. Closing condition: the technique stated at
+implementer resolution, its bound proved at a named pin, and
+its output checked against the exhaustive frontier on a
+named library hypergraph, or a separating instance exhibited.
+
+### Distillation of the base contract set
+
+Thesis: the no-architecture-change base contract set is
+distilled by anti-unification across the join hypergraph of
+possible states, at bit and symbolic level, and the
+distilled set carries the same qualified behavior as the
+undistilled set. State: proposed semantics; the carried
+verdicts and ratchet entries above (census 35 and 41) are
+its relatives and stand at their own states. Closing
+condition: the distillation computed over a named join at a
+named pin, with behavior equality checked in both
+directions, or a distilled set exhibited whose behavior
+differs.
+
+### Bidirectional — the round trips at family scale
+
+Thesis: contracts bidirectionally produce the engineering
+and reengineering analyses, equivalently or by an independent
+route, with bounds certified tight at the Pareto optimum or
+carried as owned gaps. State: proposed semantics, in
+progress in its own program — represented here only from its
+record of 2026-11-19 in the workspace research folder, never
+as landed proof. Closing conditions, from that record's gap
+register: the joined development lands at a named pin with
+its gate green; contract fidelity is discharged per subject
+by the empirical arm or stays a named premise in the joined
+theorem; the persistence corpus gains a proved floor or its
+residual is named per axis under a fixed access contract;
+the profiling visibility vector is formalized or imported as
+a named premise; the safe home's gate is run cold at its
+head and its log landed; and the losses generality gaps
+(richer derivations, wider axis forms) are re-proved against
+the general derivation interface or stay named as proposed.
+
+### The composed theorem — its standing remainders
+
+The enlarged composed theorem (synthesis document, composed
+claims) leaves four remainders, each already owned above or
+in its record and restated here so the synthesis carries
+them: the rule-form build that computes the four states from
+ground rules and issues the five-part receipt as one object
+(closing condition at census 20); the engine saturation
+repairs and the battery re-run with its final round empty on
+subjects past the smallest probe (closing condition at
+census 22); the linear cost shape, by an indexed
+implementation measured on a named snapshot (closing
+condition at census 19); and the relevance measure's
+witnessed instance, which waits on a filed composition
+record carrying the weights the measure reads (closing
+condition at census 13). None of these is closed by the
+synthesis pass.
+
+### Solver dominance — the measured axes
+
+Thesis: Idol's solver route beats the named incumbents on
+speed and memory under the same contract. State: proposed —
+the contract axes stand proven in this repository, and the
+measured axes are expressly outside those theorems. Closing
+condition: a same-contract measurement at a current pin
+against each named incumbent, with the producing mechanism
+stated beforehand under census 29, or the claim restated at
+the strength the measurements survive.
+
+### The closed loop — re-census at current heads
+
+Thesis: the closed loop's census and proof-strength ledger
+stand current at the live heads of every family home. State:
+implemented behavior at its home, with re-census owed at the
+fresh heads its own watch updates record, including the pins
+this pass read. Closing condition: a re-synthesis run at a
+named pin whose census pins equal the live heads it lists,
+this pass's pins among them.
