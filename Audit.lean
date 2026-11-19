@@ -11,6 +11,7 @@ import Merge
 import Fold
 import Frontier
 import SolverDominance
+import Synthesis
 
 #print axioms Merge.antisymm
 #print axioms Merge.Join.least
@@ -34,3 +35,11 @@ import SolverDominance
 #print axioms SolverDominance.coloring_lfp
 #print axioms SolverDominance.contract_dominance
 #print axioms SolverDominance.no_uniform_bound
+
+#print axioms Synthesis.grows.left
+#print axioms Synthesis.grows.right
+#print axioms Synthesis.screen.grows
+#print axioms Synthesis.screen.inside
+#print axioms Synthesis.qualified.join
+#print axioms Synthesis.qualified.left
+#print axioms Synthesis.closed.join

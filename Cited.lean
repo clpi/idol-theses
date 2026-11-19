@@ -302,6 +302,248 @@ re-checked. Scoping, stated in the home and carried here: the
 behavior of a merge is not the join of the behaviors — merging
 can derive more than either part — and the proven commutation
 is at the level of the topology, exactly as stated.
+Third group — the family tranche of the synthesis pass of
+2026-11-19, cited at the heads the pass read back through the
+GitHub route on that date. One representative claim per home
+not previously cited; the full claim sets stand in the
+synthesis document of this repository.
+
+Thesis 18 — losses are compositional.
+Statement: a contract is derived from recorded behavior;
+recording is additive; contracts compose with systems; gaps
+compose from component gaps and recorded interaction gaps;
+loss freeness is compositional; every loss in a whole
+localizes to a gap at a named contract or composition site.
+Refutation: one whole whose loss localizes to no component
+gap and no recorded interaction gap, or one composition of
+loss-free parts that carries a loss with no interaction gap
+recorded. Evidence state: proven in its home at the pin
+below (thirteen theorems, three standing controls); the home
+states the boundary itself — the model flips no measured
+cell, and record fidelity for a concrete campaign is that
+campaign's premise.
+
+Thesis 19 — persistence is minimal.
+Statement: over a hypergraph of recorded interactions,
+derivability from persistent state, certificate checking,
+finite candidate spaces, domination, minimum-by-construction
+choice, composition of part minima, and version readability
+hold as theorems, so a minimum representation exists and is
+chosen by construction over the enumerated space.
+Refutation: one representation in the enumerated space that
+the choice procedure passes over and that dominates its
+choice on the contract axes, or one version the readability
+predicate accepts that is not derivable from the stored
+state. Evidence state: proven in its home at the pin below,
+gate log in tree; the candidate completeness of a concrete
+corpus is that corpus's premise, named in the home's spec.
+
+Thesis 20 — profiling is synthesizable, core form.
+Statement: constructed measures are functions of the overlap
+and the certified witnesses alone, invariant under any
+external baseline; a contract's configuration count is the
+product of its two finite set counts; independent witness
+facts compound to exactly the power-of-two count of distinct
+assignments; incremental accounting equals full accounting;
+an inert step is removable with every measure preserved; a
+least cost configuration exists under any cost assignment.
+Refutation: one constructed measure that changes when only
+the external baseline changes, or one contract whose
+configuration count differs from the product. Evidence
+state: proven in its home at the pin below (sixteen theorems
+at that pin's completion record, three standing controls).
+Premise carried: facts about a runtime enter only as
+certified witness states. The visibility vector stands
+proposed in that home and is not cited here.
+
+Thesis 21 — release admission is composable.
+Statement: admission is the symbol-wise behavior and bound
+check; qualified behaviors are kept on an admitted step and
+that inclusion composes along admitted chains; cost bounds
+do not regress on an admitted step; per-module admission
+implies whole-release admission when calls stay inside a
+module. Refutation: one admitted chain that drops a qualified
+behavior, or one module-closed pair of admitted modules whose
+composition is refused. Evidence state: proven in its home
+at the pin below; the same home disproves the per-execution
+form and the cross-module form without its side condition,
+and those disproofs are part of this citation's boundary.
+
+Thesis 22 — incremental safety of the release checker.
+Statement: acceptance by the checker implies the release is
+safe and taint free; the computed code cone covers the
+inductive cone; submitter-supplied dependencies, labels, and
+budgets do not change the check; an admitted cost does not
+leave the previous cost point. Refutation: one accepted
+release that is not safe or carries a taint flow, or one check
+whose outcome changes when only submitter inputs change.
+Evidence state: proven in its home at the pin below, with
+two premises named there (external edges, and the spec
+writer's authority). Boundary: no recorded gate log stands
+in that tree at this pin, a gap the bidirectional record
+names; the citation rests on the tree's statements at the
+pin, gate unrecorded.
+
+Thesis 23 — incremental certification soundness.
+Statement: the certification closure is extensive, monotone,
+idempotent, and compounding in the same form as the closure
+laws; the checker's acceptance implies its release predicate;
+empty behavior sets are refused; submitter changes to the
+changed list alone do not change the check. Refutation: one
+accepted delta whose release predicate fails, or one closure
+that drops a root. Evidence state: proven in its home at the
+pin below, under the premises its readme names (required
+nonempty, nothing outside, no coverage gaps, independence,
+coverage), each carried as a premise of the claims that use
+it, never counted as proven here.
+
+Thesis 24 — traceability of the witness stream.
+Statement: the accounting fold is independent of event order
+and of the time assignment; retracting a set of events leaves
+exactly the fold of the surviving events; every accounting
+entry resolves to its derivation from the hypergraph alone.
+Refutation: one permutation or retiming of a witness feed
+whose fold differs, or one entry with no derivation in the
+hypergraph that the accounting carries. Evidence state:
+proven in its home at the pin below for the fold, retraction,
+and return forms; the establishment over the real store at
+that pin stands verified by execution there (1,522 of 1,526
+entries at symbol grain, 4 at derivation-step grain, none
+failing).
+
+Thesis 25 — the frontier is solvable by exhaustion.
+Statement: over a finite space of feasible schedules, the
+exhaustive solver emits exactly the frontier under the stated
+dominance; every emitted point is free of dominance, every
+undominated point is emitted, and a dominated point is
+returned with one feasible dominator named. Refutation: one
+finite space whose emitted frontier contains a dominated
+point or omits an undominated one. Evidence state: proven in
+its home at the pin below, with its limits stated there:
+exactness is over the enumerated finite space, the solver is
+exponential in that space, and no fuzzing optimality
+corollary is claimed.
+
+Thesis 26 — resolution compounds over the hypergraph.
+Statement: closure is preserved under appends, including
+appends that add rules; the closure of a join is the
+reclosure of the join of the saturated parts, not the plain
+union of closures; the resolution vector over named probe
+lists is nondecreasing under append, with exact marginal
+gain; withdrawal by filtering creates no new derivation.
+Refutation: one append that loses a derivation, one join
+whose mixed-premise consequence the reclosure misses, or one
+withdrawal that creates support. Evidence state: proven in
+its home at the pin below; admission and encoding of atoms
+are prerequisites named there, not proved there.
+
+Thesis 27 — benchmarking redundancy is exact and conditional.
+Statement: a result is redundant exactly when every atom it
+contributes is already derivable, and adding it then leaves
+the whole closure unchanged; a plan whose evidence is fully
+covered by a no-more-costly plan is dominated and not Pareto
+optimal among admitted plans; prospective removal requires
+coverage of every possible outcome. Refutation: one redundant
+result whose addition changes the closure, or one covered
+positive-cost plan that remains Pareto optimal when omission
+is admissible. Evidence state: proven in its home at the pin
+below; no speedup or statistical claim is made there, and
+the outcome catalogue's completeness is not derived there.
+
+Thesis 28 — fuzzing dominance is exact and conditional.
+Statement: plan dominance (goal coverage with no greater
+cost) is transitive and preserves budget feasibility and
+required coverage; replacement by a dominating subplan
+preserves dominance in additive composition; a certified
+replay whose coverage is already retained is strictly
+dominated by omission at positive cost; the executable
+certifier accepts exactly its stated relation. Refutation:
+one dominating replacement that breaks a budget or drops a
+required goal, or one certifier acceptance outside its
+characterization. Evidence state: proven in its home at the
+pin below; the same home proves by countermodel that fixed
+plans can beat adaptive ones and adaptive ones can beat
+fixed ones, so no universal inferiority is cited.
+
+Thesis 29 — testing redundancy is an exact criterion.
+Statement: a suite is redundant exactly when its obligations
+are inside the closure of the live support, equivalently
+when adding it leaves the closure unchanged; covered
+obligations stay redundant under further appends; bases with
+the same closure are interchangeable under future joins.
+Refutation: one suite inside the closure whose addition
+changes the closure, or one suite outside it whose addition
+changes nothing. Evidence state: proven in its home at the
+pin below; the blanket form (every hand-written test is
+redundant) is disproven there by a finite counterexample and
+is not cited.
+
+Thesis 30 — the guarded selector never regresses.
+Statement: under its three named premises (the baseline
+stays eligible, the axes are the authorized ones, the
+interval measurements are valid), the selector returns the
+baseline or the first guarded candidate, and that result's
+upper bound on every authorized axis is at most the
+baseline's. Refutation: one selection under those premises
+whose returned upper bound exceeds the baseline's on an
+authorized axis. Evidence state: proven in its home at the
+pin below, from exactly those premises; the per-execution
+form is disproven in the same home and is not cited.
+
+Thesis 31 — review is redundant only inside the narrow form.
+Statement: for a change inside a sound cone whose spec,
+roots, and rules are unchanged, rechecking the machine
+checked property is equivalent to re-reviewing that
+property, and the review bit is then the certifier's bit.
+Refutation: one in-cone change with unchanged spec, roots,
+and rules where recheck and re-review disagree. Evidence
+state: proven in its home at the pin below; the wide form
+(review redundant even when the spec is wrong) is disproven
+in the same home and is not cited.
+
+Thesis 32 — the closed loop, as instances.
+Statement: named software and named criteria enter; the
+finite space is colored; witnesses append; the fold
+accounts; bounds and a frontier derive; candidates are
+generated, qualified, and measured; an accepted improvement
+re-enters as the named software at a new pin and is
+requalified by the same qualification. Refutation: one stage
+whose output is not the next stage's input as stated, or one
+requalification that is not the same qualification applied
+to the new pin. Evidence state: the loop's eleven theorems
+at the pin below are instances of the sibling general forms,
+as its own record states; this citation carries the loop as
+the family's synthesis layer, not as a new proof home, and
+no composed claim is raised above its parts' states.
+
+Thesis 33 — the worklist form of the executable closure.
+Statement: a worklist iteration computes the same closure as
+the reference saturation of the executable closure thesis:
+one step adds exactly the rule heads whose premises are all
+present, the iteration is a membership fixed point after at
+most the universe size plus one steps, and the checked
+worklist returns exactly what the checked reference returns.
+Refutation: one bounded input on which the worklist result
+and the reference result differ. Evidence state: proven in
+the optimality home at the pin below. This citation closes
+the dominated point carried against census 49 in the
+future-work file: the reference form's powerset enumeration
+now stands beside a proved worklist form at this pin.
+
+Thesis 34 — the strict schedule form.
+Statement: in the schedule model with positivity enforced
+inside it, feasibility conjoined with the positivity check
+is exactly strict feasibility; every listed dependency of a
+strictly feasible schedule is a strict precedence; and no
+strictly feasible schedule carries a dependency cycle, so
+acyclicity is derived, not assumed. Refutation: one strictly
+feasible schedule with a nonpositive placed duration or a
+dependency cycle. Evidence state: proven in the optimality
+home at the pin below. This citation closes the strict form
+carried against census 55 in the future-work file, within
+the base model's stated limits (homogeneous venues, shared
+resources unmodeled), which remain named there.
+
 -/
 
 namespace Cited
@@ -385,16 +627,99 @@ def registry : List Entry :=
     { name := "topological",
       home := "clpi/software-compilers-lose-info",
       pin := "e54db425ec890d2bf39e5f9fa6f2da18e3910cf7",
+      state := "proven" },
+    { name := "losses",
+      home := "clpi/software-losses-are-compositional",
+      pin := "12ee66e9c9cdaeec4bea5eb8fb1fd61e6df780fb",
+      state := "proven" },
+    { name := "persistence",
+      home := "clpi/software-persistence-is-minimal",
+      pin := "eb01cf2e33a20bfbda5a03aba7a48c70fbd10741",
+      state := "proven" },
+    { name := "profiling",
+      home := "clpi/software-profiling-is-synthesizable",
+      pin := "a53c4bf5aa83e8677ecb66571d61ed4c11e2d88d",
+      state := "proven" },
+    { name := "composable",
+      home := "clpi/software-is-composable",
+      pin := "7b1746467a410e9e5ae309f2a86bc4cd37700989",
+      state := "proven" },
+    { name := "safe",
+      home := "clpi/software-is-incrementally-safe",
+      pin := "97e55d28edc0d33f3466de3a3e4061e010c3b4d5",
+      state := "proven, gate unrecorded" },
+    { name := "certifiable",
+      home := "clpi/software-is-incrementally-certifiable",
+      pin := "3690167318cf4d41b51d0945f4fccc7f043e8412",
+      state := "proven" },
+    { name := "traceable",
+      home := "clpi/software-is-more-traceable-than-you-think",
+      pin := "8f6a128069d0e68e97c4a69d78689c84350b0d2f",
+      state := "proven" },
+    { name := "exhaustive",
+      home := "clpi/software-frontier-is-solvable",
+      pin := "22418d56604c96fdc1ba2875f3167e228b6ac6f3",
+      state := "proven" },
+    { name := "resolution",
+      home := "clpi/software-is-solvable",
+      pin := "3053b78d24bd81299e998bc253c755ab4a5e9b43",
+      state := "proven" },
+    { name := "benchmarking",
+      home := "clpi/software-benchmarking-is-redundant-and-suboptimal",
+      pin := "a85286acc1f62c12992aa3a0ac8dee529b62927d",
+      state := "proven" },
+    { name := "fuzzing",
+      home := "clpi/software-fuzzing-is-suboptimal",
+      pin := "6ed7a59651ae9dab006b7903a98d3d598cca19ea",
+      state := "proven" },
+    { name := "testing",
+      home := "clpi/software-testing-is-redundant",
+      pin := "18feb7ab60d542007124405fd8e1dc209c68361a",
+      state := "proven" },
+    { name := "guarded",
+      home := "clpi/software-doesnt-have-to-regress",
+      pin := "858a85e383fbecc9826186aee2cc0101aea5ea62",
+      state := "proven under three premises" },
+    { name := "review",
+      home := "clpi/software-doesnt-need-review",
+      pin := "1d504014be0c727b3f12e4d8e17f47dfceb118b6",
+      state := "proven in narrow form" },
+    { name := "loop",
+      home := "clpi/software-is-a-closed-loop",
+      pin := "f2c3b6d643bba02e90fb16381d20c9b891210e65",
+      state := "proven as instances" },
+    { name := "worklist",
+      home := "clpi/software-optimality",
+      pin := "95df5fb7e922e7316b0ebe90b7847fd45a208d88",
+      state := "proven" },
+    { name := "strict",
+      home := "clpi/software-optimality",
+      pin := "95df5fb7e922e7316b0ebe90b7847fd45a208d88",
       state := "proven" } ]
 
-/-- The registry carries exactly the seventeen theses stated above. -/
-theorem count : registry.length = 17 := rfl
+/-- The registry carries exactly the thirty-four theses stated above. -/
+theorem count : registry.length = 34 := rfl
 
-/-- Every cited row names one of the three family homes. -/
+/-- Every cited row names one of the eighteen family homes. -/
 theorem homes : ∀ e ∈ registry,
     e.home = "clpi/software-is-quantifiable" ∨
       e.home = "clpi/software-optimality" ∨
-        e.home = "clpi/software-compilers-lose-info" := by
+        e.home = "clpi/software-compilers-lose-info" ∨
+          e.home = "clpi/software-losses-are-compositional" ∨
+            e.home = "clpi/software-persistence-is-minimal" ∨
+              e.home = "clpi/software-profiling-is-synthesizable" ∨
+                e.home = "clpi/software-is-composable" ∨
+                  e.home = "clpi/software-is-incrementally-safe" ∨
+                    e.home = "clpi/software-is-incrementally-certifiable" ∨
+                      e.home = "clpi/software-is-more-traceable-than-you-think" ∨
+                        e.home = "clpi/software-frontier-is-solvable" ∨
+                          e.home = "clpi/software-is-solvable" ∨
+                            e.home = "clpi/software-benchmarking-is-redundant-and-suboptimal" ∨
+                              e.home = "clpi/software-fuzzing-is-suboptimal" ∨
+                                e.home = "clpi/software-testing-is-redundant" ∨
+                                  e.home = "clpi/software-doesnt-have-to-regress" ∨
+                                    e.home = "clpi/software-doesnt-need-review" ∨
+                                      e.home = "clpi/software-is-a-closed-loop" := by
   decide
 
 end Cited
